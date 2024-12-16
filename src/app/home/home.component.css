@@ -5,3 +5,21 @@
   flex-wrap: wrap;
   justify-content:space-evenly;
 }
+.midSection
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.midSectionRight
+{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: black;
+  width: 13rem;
+}
+.midSectionCarousel
+{
+  width: 62rem;
+}
