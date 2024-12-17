@@ -15,4 +15,4 @@ export class GamesServiceService {
   getGames():Observable<Game[]> {
     return this.http.get<Game[]>(this.baseUrl + '/games');
   }
-} 
+}
